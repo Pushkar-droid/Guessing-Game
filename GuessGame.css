@@ -1,0 +1,95 @@
+body{
+    background: purple;
+}
+
+@media all and (min-width: 1012px) {    
+main{
+    background: #fcfcfc;
+    width: 30%;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    height: 350px;
+}
+.button-wrapper button, #newgamebutton button
+{
+background: rgb(4, 14, 112);
+color: white;
+padding: 10px 20px;
+border-radius: 10px;
+}
+
+#inputbox
+{
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+#imagee
+{
+    height: 100px;
+
+}
+}
+@media all and (max-width: 1012px) and (min-width: 700px) {
+    body{
+        background: red;
+    }
+    main{
+        background: #fcfcfc;
+        width: 50%;
+        margin: 250px auto;
+        padding: 15px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .button-wrapper button, #newgamebutton button
+        {
+        background: rgb(4, 14, 112);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        }
+        #inputbox
+        {
+            padding: 10px 30px 10px 30px;
+            text-align: center;
+            border: none;
+            border-bottom: 1px solid blue;
+        }
+        #imagee
+        {
+            height: 100px;
+        }
+}
+@media all and (max-width: 700px) and (min-width: 350px){
+    body{
+        background: rgb(82, 207, 32);
+    }
+    main{
+        background: #fcfcfc;
+        width: 50%;
+        margin: 150px auto;
+        padding: 15px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .button-wrapper button, #newgamebutton button
+        {
+        background: rgb(4, 14, 112);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        }
+        #inputbox
+        {
+            padding: 10px 30px 10px 30px;
+            text-align: center;
+            border: none;
+            border-bottom: 1px solid blue;
+            width: 100px;
+        }
+}
+    
